@@ -1,5 +1,14 @@
 export default `
     type Query {
-        hello: String!
+        photos: [Photo]
+    }
+    
+    type Photo {
+        id: ID!,
+        name: String!,
+        category: Int!,
+        price: Float!,
+        tags: [String],
+        urls: [String!]
     }
 `;
