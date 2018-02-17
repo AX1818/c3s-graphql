@@ -1,0 +1,23 @@
+{
+  "name": "c3s-graphql",
+  "version": "1.0.0",
+  "description": "GraphQL Server for C3S",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "repository": "git@github-ax1818:AX1818/c3s-graphql.git",
+  "author": "Ausitn Xie",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^1.3.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "graphql": "^0.13.1",
+    "graphql-tools": "^2.21.0"
+  }
+}
